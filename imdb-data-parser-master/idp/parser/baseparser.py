@@ -42,7 +42,7 @@ class BaseParser(metaclass=ABCMeta):
         - scripts
     """
 
-    seperator = "\t" #TODO: get from settings
+    seperator = "," #TODO: get from settings
 
     def __init__(self, preferences_map):
         self.mode = preferences_map['mode']
