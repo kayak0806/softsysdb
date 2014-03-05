@@ -42,4 +42,4 @@ nosetests.xml
 *.swp
 
 #dont commit settings file
-idp/settings.py
+#idp/settings.py
